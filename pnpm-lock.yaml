@@ -1067,8 +1067,8 @@ packages:
       '@babel/helper-plugin-utils': 7.21.5
     dev: false
 
-  /@babel/plugin-syntax-jsx@7.18.6(@babel/core@7.20.7):
-    resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
+  /@babel/plugin-syntax-jsx@7.21.4(@babel/core@7.20.7):
+    resolution: {integrity: sha512-5hewiLct5OKyh6PLKEYaFclcqtIgCb6bmELouxjF6up5q3Sov7rOayW4RwhbaBL0dit8rA80GNfY+UuDp2mBbQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1235,8 +1235,8 @@ packages:
       '@babel/helper-plugin-utils': 7.21.5
     dev: false
 
-  /@babel/plugin-syntax-typescript@7.20.0(@babel/core@7.20.7):
-    resolution: {integrity: sha512-rd9TkG+u1CExzS4SM1BlMEhMXwFLKVjOAFFCDx9PbX5ycJWDoWMcwdJH9RhkPu1dOgn5TrxLot/Gx6lWFuAUNQ==}
+  /@babel/plugin-syntax-typescript@7.21.4(@babel/core@7.20.7):
+    resolution: {integrity: sha512-xz0D39NvhQn4t4RNsHmDnnsaQizIlUkdtYvLs8La1BlfjQ6JEwxkJGeqJMW2tAXx+q6H+WFuUTXNdYVpEya0YA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1982,7 +1982,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.20.7
-      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-plugin-utils': 7.21.5
     dev: false
 
   /@babel/plugin-transform-react-jsx-development@7.18.6(@babel/core@7.20.7):
@@ -2004,9 +2004,9 @@ packages:
       '@babel/core': 7.20.7
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-module-imports': 7.18.6
-      '@babel/helper-plugin-utils': 7.20.2
-      '@babel/plugin-syntax-jsx': 7.18.6(@babel/core@7.20.7)
-      '@babel/types': 7.20.7
+      '@babel/helper-plugin-utils': 7.21.5
+      '@babel/plugin-syntax-jsx': 7.21.4(@babel/core@7.20.7)
+      '@babel/types': 7.22.4
     dev: false
 
   /@babel/plugin-transform-react-pure-annotations@7.18.6(@babel/core@7.20.7):
@@ -2017,7 +2017,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.7
       '@babel/helper-annotate-as-pure': 7.18.6
-      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-plugin-utils': 7.21.5
     dev: false
 
   /@babel/plugin-transform-regenerator@7.20.5(@babel/core@7.20.7):
@@ -2172,8 +2172,8 @@ packages:
     dependencies:
       '@babel/core': 7.20.7
       '@babel/helper-create-class-features-plugin': 7.20.7(@babel/core@7.20.7)
-      '@babel/helper-plugin-utils': 7.20.2
-      '@babel/plugin-syntax-typescript': 7.20.0(@babel/core@7.20.7)
+      '@babel/helper-plugin-utils': 7.21.5
+      '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.20.7)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6727,7 +6727,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /make-dir@3.1.0:
@@ -8406,8 +8406,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
     dev: false
 
